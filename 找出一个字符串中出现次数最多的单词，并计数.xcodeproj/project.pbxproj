@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89CD1C931B32ADA300619BA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD1C921B32ADA300619BA1 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89CD1C8D1B32ADA300619BA1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89CD1C8F1B32ADA300619BA1 /* 找出一个字符串中出现次数最多的单词，并计数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "找出一个字符串中出现次数最多的单词，并计数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CD1C921B32ADA300619BA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89CD1C8C1B32ADA300619BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89CD1C861B32ADA300619BA1 = {
+			isa = PBXGroup;
+			children = (
+				89CD1C911B32ADA300619BA1 /* 找出一个字符串中出现次数最多的单词，并计数 */,
+				89CD1C901B32ADA300619BA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89CD1C901B32ADA300619BA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89CD1C8F1B32ADA300619BA1 /* 找出一个字符串中出现次数最多的单词，并计数 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89CD1C911B32ADA300619BA1 /* 找出一个字符串中出现次数最多的单词，并计数 */ = {
+			isa = PBXGroup;
+			children = (
+				89CD1C921B32ADA300619BA1 /* main.m */,
+			);
+			path = "找出一个字符串中出现次数最多的单词，并计数";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89CD1C8E1B32ADA300619BA1 /* 找出一个字符串中出现次数最多的单词，并计数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CD1C961B32ADA300619BA1 /* Build configuration list for PBXNativeTarget "找出一个字符串中出现次数最多的单词，并计数" */;
+			buildPhases = (
+				89CD1C8B1B32ADA300619BA1 /* Sources */,
+				89CD1C8C1B32ADA300619BA1 /* Frameworks */,
+				89CD1C8D1B32ADA300619BA1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "找出一个字符串中出现次数最多的单词，并计数";
+			productName = "找出一个字符串中出现次数最多的单词，并计数";
+			productReference = 89CD1C8F1B32ADA300619BA1 /* 找出一个字符串中出现次数最多的单词，并计数 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89CD1C871B32ADA300619BA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "伟";
+				TargetAttributes = {
+					89CD1C8E1B32ADA300619BA1 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 89CD1C8A1B32ADA300619BA1 /* Build configuration list for PBXProject "找出一个字符串中出现次数最多的单词，并计数" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89CD1C861B32ADA300619BA1;
+			productRefGroup = 89CD1C901B32ADA300619BA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89CD1C8E1B32ADA300619BA1 /* 找出一个字符串中出现次数最多的单词，并计数 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89CD1C8B1B32ADA300619BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CD1C931B32ADA300619BA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89CD1C941B32ADA300619BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89CD1C951B32ADA300619BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89CD1C971B32ADA300619BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89CD1C981B32ADA300619BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89CD1C8A1B32ADA300619BA1 /* Build configuration list for PBXProject "找出一个字符串中出现次数最多的单词，并计数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CD1C941B32ADA300619BA1 /* Debug */,
+				89CD1C951B32ADA300619BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89CD1C961B32ADA300619BA1 /* Build configuration list for PBXNativeTarget "找出一个字符串中出现次数最多的单词，并计数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CD1C971B32ADA300619BA1 /* Debug */,
+				89CD1C981B32ADA300619BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89CD1C871B32ADA300619BA1 /* Project object */;
+}
